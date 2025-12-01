@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <header>
         <nav class="menu">
-            <div class="caixa-img-logo">
-             <img src="./assets/logo-senai.png" alt="logo" id="logo">
-            </div>
-        <div>
-            <ul>
-                <li> <a href="#">Home</a></li>
-            </ul>
-        </div>
-        </nav>               
-    </header>
-    <hr class="linha">
-
-    <main>
-        <img src="./assets/logo-senai.png" alt="logo" id="logo">
+            <div class="caixa-logo">
+                <img src="./assets/logo-senai.png" alt="logo" id="logo">
             </div>
             <div>
                 <ul>
@@ -54,16 +45,51 @@
         </div>
         <div class="caixa-texto">
             <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
+               <p class="top categorias">presencial</p>
+               <p class="top categorias">negócios</p>
             </div>
             <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
+                <p class="titulo">Gestão de projetos Àgeis</p>
+                <p class="texto">Curso voltado a aplicação de metodologias ágeis como scrum e khanban em atendimentos corporativos</p>
                 <div class="icone">
                     <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
+                    <p class="carga">Carga horária: 40 horas</p>
+                </div>
+            </div>
+            <div class="caixa-btn">
+                <button class="inscricao color-caixa">SAIBA MAIS</button>
+                <button class="inscricao color-btn">INSCREVER-SE</button>
+            </div>
+        </div>
+        <div class="caixa-texto">
+            <div class="categorias">
+               <p class="top categorias">EAD</p>
+               <p class="top categorias">Idiomas</p>
+            </div>
+            <div class="descricao">
+                <p class="titulo">Inglês para Viagens</p>
+                <p class="texto">Comunique-se com confiança em aeroportos,hoteis e restaurantes durante suas viagens internacionais</p>
+                <div class="icone">
+                    <i class="bi bi-stopwatch"></i>
+                    <p class="carga">Carga horária: 20 horas</p>
+                </div>
+            </div>
+            <div class="caixa-btn">
+                <button class="inscricao color-caixa">SAIBA MAIS</button>
+                <button class="inscricao color-btn">INSCREVER-SE</button>
+            </div>
+        </div>
+        <div class="caixa-texto">
+            <div class="categorias">
+               <p class="top categorias">cursos livres</p>
+               <p class="top categorias">presencial</p>
+            </div>
+            <div class="descricao">
+                <p class="titulo">Introduçâo à Fotografia Digital</p>
+                <p class="texto">Explore os fundamentos da fotografia e aprenda a tirar fotos incriveis com sua câmera ou smatphone</p>
+                <div class="icone">
+                    <i class="bi bi-stopwatch"></i>
+                    <p class="carga">Carga horária: 25 horas</p>
                 </div>
             </div>
             <div class="caixa-btn">
@@ -74,15 +100,71 @@
         <div class="caixa-texto">
             <div class="categorias">
                <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
+               <p class="top categorias">design</p>
                <p class="top categorias">Programação</p>
             </div>
             <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
+                <p class="titulo">Design Gráfico com Canva</p>
+                <p class="texto">Crie materiais visuais impactantes para redes sociais empresas ou uso pessoal usando o Canva</p>
                 <div class="icone">
                     <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
+                    <p class="carga">Carga horária: 15 horas</p>
+                </div>
+            </div>
+            <div class="caixa-btn">
+                <button class="inscricao color-caixa">SAIBA MAIS</button>
+                <button class="inscricao color-btn">INSCREVER-SE</button>
+            </div>
+        </div>
+        <div class="caixa-texto">
+            <div class="categorias">
+               <p class="top categorias">presencial</p>
+               <p class="top categorias">administração</p>
+               <p class="top categorias">Programação</p>
+            </div>
+            <div class="descricao">
+                <p class="titulo">Marketing Digital para pequenos negócios </p>
+                <p class="texto">Domine estrategias de marketing online para atrair clientes e aumentar suas vendas</p>
+                <div class="icone">
+                    <i class="bi bi-stopwatch"></i>
+                    <p class="carga">Carga horária: 30 horas</p>
+                </div>
+            </div>
+            <div class="caixa-btn">
+                <button class="inscricao color-caixa">SAIBA MAIS</button>
+                <button class="inscricao color-btn">INSCREVER-SE</button>
+            </div>
+        </div>
+        <div class="caixa-texto">
+            <div class="categorias">
+               <p class="top categorias">Tecnologia</p>
+               <p class="top categorias">EAD</p>
+            </div>
+            <div class="descricao">
+                <p class="titulo">Lógica de programaçâo </p>
+                <p class="texto">Ideal para iniciantes, este curso ensina os principios fundamentais da programaçâo de forma...</p>
+                <div class="icone">
+                    <i class="bi bi-stopwatch"></i>
+                    <p class="carga">Carga horária: 35 horas</p>
+                </div>
+            </div>
+            <div class="caixa-btn">
+                <button class="inscricao color-caixa">SAIBA MAIS</button>
+                <button class="inscricao color-btn">INSCREVER-SE</button>
+            </div>
+        </div>
+        <div class="caixa-texto">
+            <div class="categorias">
+               <p class="top categorias">Cursos Livres</p>
+               <p class="top categorias">Presencial</p>
+               <p class="top categorias">Saúde</p>
+            </div>
+            <div class="descricao">
+                <p class="titulo">Primeiros Socorros</p>
+                <p class="texto">Aprenda como agir em situaçoês de emergência e prestar os primeiros atendimentos corretamentes </p>
+                <div class="icone">
+                    <i class="bi bi-stopwatch"></i>
+                    <p class="carga">Carga horária: 10 horas</p>
                 </div>
             </div>
             <div class="caixa-btn">
@@ -93,15 +175,14 @@
         <div class="caixa-texto">
             <div class="categorias">
                <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
+               <p class="top categorias">Financeiro</p>
             </div>
             <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
+                <p class="titulo">Educaçao Financeira Pessoal</p>
+                <p class="texto">Organize suas financias controle gastos e apenda a investir com inteligência</p>
                 <div class="icone">
                     <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
+                    <p class="carga">Carga horária: 18 horas</p>
                 </div>
             </div>
             <div class="caixa-btn">
@@ -109,122 +190,10 @@
                 <button class="inscricao color-btn">INSCREVER-SE</button>
             </div>
         </div>
-        <div class="caixa-texto">
-            <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
-            </div>
-            <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
-                <div class="icone">
-                    <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
-                </div>
-            </div>
-            <div class="caixa-btn">
-                <button class="inscricao color-caixa">SAIBA MAIS</button>
-                <button class="inscricao color-btn">INSCREVER-SE</button>
-            </div>
-        </div>
-        <div class="caixa-texto">
-            <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
-            </div>
-            <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
-                <div class="icone">
-                    <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
-                </div>
-            </div>
-            <div class="caixa-btn">
-                <button class="inscricao color-caixa">SAIBA MAIS</button>
-                <button class="inscricao color-btn">INSCREVER-SE</button>
-            </div>
-        </div>
-        <div class="caixa-texto">
-            <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
-            </div>
-            <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
-                <div class="icone">
-                    <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
-                </div>
-            </div>
-            <div class="caixa-btn">
-                <button class="inscricao color-caixa">SAIBA MAIS</button>
-                <button class="inscricao color-btn">INSCREVER-SE</button>
-            </div>
-        </div>
-        <div class="caixa-texto">
-            <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
-            </div>
-            <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
-                <div class="icone">
-                    <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
-                </div>
-            </div>
-            <div class="caixa-btn">
-                <button class="inscricao color-caixa">SAIBA MAIS</button>
-                <button class="inscricao color-btn">INSCREVER-SE</button>
-            </div>
-        </div>
-        <div class="caixa-texto">
-            <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
-            </div>
-            <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
-                <div class="icone">
-                    <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
-                </div>
-            </div>
-            <div class="caixa-btn">
-                <button class="inscricao color-caixa">SAIBA MAIS</button>
-                <button class="inscricao color-btn">INSCREVER-SE</button>
-            </div>
-        </div>
-        <div class="caixa-texto">
-            <div class="categorias">
-               <p class="top categorias">Online</p>
-               <p class="top categorias">Tecnologia</p>
-               <p class="top categorias">Programação</p>
-            </div>
-            <div class="descricao">
-                <p class="titulo">Desenvolvimento Web Full Stack</p>
-                <p class="texto">Aprenda a criar aplicações web modernas utilizando HTML, CSS, JavaScript, Node.js e muito mais.</p>
-                <div class="icone">
-                    <i class="bi bi-stopwatch"></i>
-                    <p class="carga">Carga horária: 80 horas</p>
-                </div>
-            </div>
-            <div class="caixa-btn">
-                <button class="inscricao color-caixa">SAIBA MAIS</button>
-                <button class="inscricao color-btn">INSCREVER-SE</button>
-            </div>
-        </div>
+        
     </main>
 
 </body>
+
 
 </html>

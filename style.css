@@ -1,40 +1,68 @@
-.caixa-img-logo{
+:root {
+    --border: #727171;
+    --branco: #ffffff;
+    --btn: #990000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+header {
+    color: #030303;
+}
+
+.caixa-logo {
     padding: 5px 5px;
 }
-#logo{
+
+#logo {
     width: 80px;
     height: 30px;
-} 
-.titulo{
-    display: flex; /*Indica a prpriedade FlexBox*/
-    flex-direction: row; /*Colocar os elementos na horizontal ou na vertical*/
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-li{
-    list-style: none;
-}
-li a{
+
+li a {
     text-decoration: none;
     font-weight: bold;
     color: black;
     padding: 20px;
 }
-.linha{
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linha {
     margin: auto;
     width: 1000px;
-
-
 }
+
 .caixa-texto {
     height: 250px;
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 2%;
+    padding: 40px;
+    margin: 22px;
+    
 }
 
 .categorias {
@@ -45,7 +73,7 @@ li a{
 }
 
 .top {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     width: 55px;
     height: 13px;
@@ -82,7 +110,8 @@ li a{
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    height: 80px;
+    height: 55px;
+    padding: 15px;
 }
 
 .inscricao {
@@ -100,7 +129,7 @@ li a{
 }
 
 .color-caixa {
-    color: #ff0000;
+    color: #020202;
     border-color: #ff0000;
 }
 
@@ -110,7 +139,6 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 
 
 
