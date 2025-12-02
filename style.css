@@ -139,6 +139,16 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.caixa-texto-footer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    margin: 15px;
+    background-color: #333;
+    color: #fcfcfc;
+
+
+}
 
 
 
